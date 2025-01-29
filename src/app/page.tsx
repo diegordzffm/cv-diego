@@ -1,5 +1,5 @@
 import { CommandMenu } from "@/components/command-menu";
-import { GitHubIcon } from "./GitHubIcon";
+
 import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
 import { WorkExperience } from "./components/WorkExperience";
