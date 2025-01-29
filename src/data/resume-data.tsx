@@ -11,18 +11,18 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Diego Rodriguez",
   initials: "DR",
-  location: "Frankfurt am Main, Germany, CET",
+  location: "Akazienstr. 55, 65933 Frankfurt am Main, Deutschland",
   locationLink: "https://www.google.com/maps/place/FrankfurtamMain",
   about: 
-      "Physiker mit praktischer Erfahrung in Data Science, Data Analytics,Softwareentwicklung und regulatorischem Reporting. Ich bin interessiert ander Automatisierung von Softwarelösungen und Datenverarbeitungsprozessen.",
+      "Physiker mit praktischer Erfahrung in Data Science, Data Analytics, Softwareentwicklung und regulatorischem Reporting. Ich bin interessiert an der Automatisierung von Softwarelösungen und von Datenworkflows. Zusätzlich habe ich eine große Begeisterung für Process Mining, KI, ML, Kryptowährungen und möchte mein Know-how in diesen Bereichen erweitern.",
   summary: (
     <>
-      Bereits während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in derAnalyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten, um regulatorischeAnforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datensätze sowie darauf, wertvolle Business-Insights durch Datenanalyse zu gewinnen.
-      <hr className="border-t-2 border-gray-500 my-2 print:border-gray -mb--1 -mt-0.525" />
+      Bereits während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in der Analyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten um regulatorische Anforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datensätze sowie darauf, durch Datenanalyse wertvolle Business-Insights zu gewinnen.
+      <hr className="border-t-2 border-gray-500 my-3 print:border-gray mb-1 -mt--0.5" />
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/123733873?s=400&u=17bdf84a736ec887924a058dd9f6c3368083cf5b&v=4",
-  personalWebsiteUrl: "",
+  personalWebsiteUrl: "https://github.com/diegordzffm" ,
   contact: {
     email: "diego.rodriguez.ffm@gmail.com",
     tel: "Tel: +49 152 25261508",
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       end: "2020",
     },
     {
-      school: "Universidad Autónoma de Coahuila, Mexico",
+      school: "University of Coahuila, Mexico",
       degree: "Bachelor of Science in Physics",
       start: "2011",
       end: "2016",
@@ -57,9 +57,9 @@ export const RESUME_DATA = {
 
   work: [
     {
-      company: "Regnology Germany Gmbh", title: "IT-Analyst",
+      company: "Regnology Germany Gmbh", title: "IT/Busines-Analyst",
       link: "https://www.regnology.net/en/",
-      badges: ["IT Analyst"],
+      badges: ["IT-Business Analyst"],
       start: "10.2021",
       end: null,
       description: (
@@ -67,20 +67,20 @@ export const RESUME_DATA = {
           <hr className="border-t-2 border-gray-500 my-2 print:border-gray mb-1 -mt--0.5" />
           <ul className="list-inside list-disc space-y-1">
             <li>
-              Developed and implemented regulatory reporting modules from scratch into the company software solutions. For example, the WiFSTA (Data Collection on Housing Loans) module for Bundesbank, where I utilized SQL to implement data calculations. I worked with version control and automation tools such as Git, GitLab, Jenkins, and Bitbucket to streamline workflows.
+              Implementierung von regulatorischen Modulen in die Softwarelösungen des Unternehmens, zum Beispiel, das WiFSTA-Modul (Datenerhebung über Wohnimmobilienfinanzierungen) für die Bundesbank. Bei der Entwicklung habe ich SQL queries zur Datenberechnungen verwendet. Darüber hinaus habe ich mit Versionskontroll- und Automatisierungstools wie Git, GitLab, Jenkins und Bitbucket gearbeitet.
             </li>
             <li>
-              Designed a project for automating complex ETL processes using Python, Airflow DAGs, S3 buckets and REST APIs, improving efficiency and scalability of the regulatory reporting software.
+              Entwicklung eines Projekts zur Automatisierung komplexer ETL-Prozesse, dabei habe ich Python, Airflow DAGs, S3-Buckets und REST-APIs eingesetzt. Dadurch wurde die Software für das Meldewesen effizienter und besser skalierbar.
             </li>
             <li>
-              Gained experience in managing relational databases and data lakes, working with MSSQL Server and PostgreSQL to store, process, and analyze datasets. I also modeled and customized client datasets for banking regulation software, developing client data quality checks and monitoring systems.
+              Erfahrung in dem Management von relationalen Datenbanken und Data Lakes, insbesondere mit MS-SQL Server und PostgreSQL, zur Verarbeitung und Analyse von Datensätzen. Auch Praxiswissen in der Modellierung und Anpassung von Kundendaten für die Software sowie die Entwicklung von Datenqualitätsprüfungen und Monitoring-Prozessen.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Universität Stuttgart",
+      company: "Universität Stuttgart - Max Planck Institut",
       link: "",
       badges: ["Scientific Assistant - Doktorand"],
       title: "",
@@ -90,18 +90,23 @@ export const RESUME_DATA = {
         <>
           <hr className="border-t-2 border-gray-500 my-2 print:border-gray mb-1 -mt--0.5" />
           <ul className="list-inside list-disc space-y-1">
-            <li>
-              Used Python libraries such as Pandas, NumPy, Matplotlib, and Scikit-learn for data cleaning, visualization, and predictive modeling in research-driven analytics.
+            <li >
+              Ich habe mit Python-Libraries wie Pandas, NumPy und Scikit-learn komplexe Datenanalysen durchgeführt und Daten aufbereitet. Als Datenvisualisierungstools verwendete ich Matplotlib, Matlab.
             </li>
             <li>
-              Applied statistical and mathematical models to analyze complex experimental datasets, ensuring accurate interpretation of scientific results. Techniques included Bayesian Optimization, Monte Carlo methods for error estimation, and neural networks to enhance predictive accuracy.
+              Modellierung und Implementierung mathematischer sowie statistischer Algorithmen zur Verarbeitung komplexer experimenteller Daten und exakten Interpretation wissenschaftlicher Ergebnisse. Dabei habe ich Data-Science-Techniken wie Bayesian Optimization, Monte-Carlo-Methoden zur Fehlerabschätzung und neuronale Netzwerke zur Verbesserung der Vorhersagegenauigkeit eingesetzt.
             </li>
-            <li>            
-              My data analysis work contributed to research on optical measurement systems for chemical materials, published in scientific journals: 
-              https://doi.org/10.1103/PhysRevLett.124.136402 and https://doi.org/10.1103/PhysRevLett.124.136402.
-             
-              <hr className="border-t-2 border-gray-500 my-6 print:border-gray" />
-            </li>
+            <li className="text-left">            
+              Meine Forschung in den Bereichen Data Science und Physik wurde in wissenschaftlichen Publikationen veröffentlicht:{" "} 
+              <a href="https://doi.org/10.1103/PhysRevLett.124.136402" target="_blank" rel="noopener noreferrer">
+                https://doi.org/10.1103/PhysRevLett.124.136402
+              </a> 
+              {" "}und{" "}  
+              <a href="https://doi.org/10.1103/PhysRevLett.124.136402" target="_blank" rel="noopener noreferrer">
+                https://doi.org/10.1103/PhysRevLett.124.136402
+              </a>.
+              <hr className="border-t-2 border-gray-500 my-4 mt-3 print:border-gray" />
+              </li>
           </ul>
         </>
       ),
@@ -161,8 +166,7 @@ export const RESUME_DATA = {
     "Git",
     "Software Automation",
     "Agile Methodology",
-    "Languages: English (Advanced), German (Fluent B2), Spanish (Native) ",
-    
+    "• Deutsch: Gute Kenntnisse (B2-Niveau)",  "• Englisch: verhandlungssicher",  "• Spanisch: Muttersprache",
   ],
   
   

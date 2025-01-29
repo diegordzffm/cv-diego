@@ -35,14 +35,15 @@
     --radius: 0.5rem;
   }
 
+  /* Dark Mode Enhancements */
   .dark {
-    --background: 224 71.4% 4.1%;
+    --background: 0 0% 5%; /* Deep black background */
     --foreground: 210 20% 98%;
 
-    --card: 224 71.4% 4.1%;
+    --card: 0 0% 8%;
     --card-foreground: 210 20% 98%;
 
-    --popover: 224 71.4% 4.1%;
+    --popover: 0 0% 10%;
     --popover-foreground: 210 20% 98%;
 
     --primary: 210 20% 98%;
@@ -54,14 +55,14 @@
     --muted: 215 27.9% 16.9%;
     --muted-foreground: 217.9 10.6% 64.9%;
 
-    --accent: 215 27.9% 16.9%;
+    --accent: 215 27.9% 22%;
     --accent-foreground: 210 20% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 20% 98%;
 
-    --border: 215 27.9% 16.9%;
-    --input: 215 27.9% 16.9%;
+    --border: 215 27.9% 22%;
+    --input: 215 27.9% 22%;
     --ring: 216 12.2% 83.9%;
   }
 }
@@ -75,40 +76,37 @@
   }
 }
 
-/* Ensure all colors, images, and graphics print correctly */
+/* High-Quality Print Formatting */
 @layer components {
   @media print {
-    /* Preserve full colors */
+    /* Preserve Full Colors in Print Mode */
     body, * {
       -webkit-print-color-adjust: exact !important;
       print-color-adjust: exact !important;
     }
 
-    /* Ensure background colors and images are not removed */
+    /* Ensure backgrounds and text colors are fully visible */
     body {
       background-color: white !important;
       color: black !important;
     }
 
-    /* Ensure text colors remain */
+    /* Retain High-Quality Text Colors */
     .print\:text-blue-500 {
       color: #3b82f6 !important;
     }
-    
     .print\:text-red-500 {
       color: #ef4444 !important;
     }
-
     .print\:text-green-500 {
       color: #22c55e !important;
     }
-
     .print\:text-yellow-500 {
       color: #eab308 !important;
     }
 
-    /* Ensure images & graphics print correctly */
-    img, svg {
+    /* Ensure Images and Graphics Print in High Quality */
+    img, svg, canvas, video, picture {
       display: block !important;
       max-width: 100% !important;
       height: auto !important;
@@ -116,33 +114,42 @@
       print-color-adjust: exact !important;
     }
 
-    /* Ensure SVGs retain color */
-    svg * {
-      fill: currentColor !important;
-    }
-
-    /* Preserve background images */
+    /* Preserve Background Images */
     .bg-cover, .bg-contain, .bg-center {
       background-size: cover !important;
       background-repeat: no-repeat !important;
       background-position: center !important;
     }
 
-    /* Preserve gradient backgrounds */
+    /* Preserve Gradients in Print */
     .bg-gradient-to-r, .bg-gradient-to-l, .bg-gradient-to-t, .bg-gradient-to-b {
       -webkit-print-color-adjust: exact !important;
       print-color-adjust: exact !important;
     }
 
-    /* Prevent images from being downscaled or hidden */
+    /* Prevent Images and Graphics from Being Cropped */
     img, svg, canvas, video, picture {
       break-inside: avoid !important;
       page-break-inside: avoid !important;
     }
+
+    /* Improve Font Rendering for Print */
+    * {
+      font-smooth: always !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    /* Force High-Resolution Printing */
+    @page {
+      size: A4;
+      margin: 1cm;
+    }
+
+    /* Force Page Breaks for Sections */
+    .print-force-new-page {
+      page-break-before: always;
+    }
   }
 }
 
-/* Force page breaks when needed */
-.print-force-new-page {
-  page-break-before: always;
-}
+

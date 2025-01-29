@@ -1,11 +1,11 @@
 import { CommandMenu } from "@/components/command-menu";
+import { GitHubIcon } from "./GitHubIcon";
 import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
 import { WorkExperience } from "./components/WorkExperience";
 import { Projects } from "./components/Projects";
 import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
-
 import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
 
@@ -74,29 +74,23 @@ export default function ResumePage() {
 
         <div className="space-y-1 print:space-y-1">
           <Summary summary={RESUME_DATA.summary} />
-
           <WorkExperience work={RESUME_DATA.work} />
 
-          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Education education={RESUME_DATA.education} />
+            <Skills skills={RESUME_DATA.skills} />
+            
+          </div>
 
-          <Education education={RESUME_DATA.education} />
-
-          <Skills skills={RESUME_DATA.skills} />
-          
-         
-      
-          
           <div className="break-before-page"></div>
-
-        
-  
-          
         </div>
       </section>
 
       <nav className="print:hidden" aria-label="Quick navigation">
         <CommandMenu links={getCommandMenuLinks()} />
       </nav>
+
+      
     </main>
   );
 }

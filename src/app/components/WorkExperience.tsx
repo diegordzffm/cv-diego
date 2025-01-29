@@ -49,10 +49,10 @@ interface WorkPeriodProps {
 function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
-      className="text-xs text-gray-500 print:text-[10px] print:text-gray-500"
-      aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
+      className="text-xs text-gray-500 font-semibold print:text-[10px] print:text-gray-500"
+      aria-label={`Employment period: ${start} to ${end ?? "heute"}`}
     >
-      {start}-{end ?? "Present"}
+      {start}-{end ?? "heute"}
     </div>
   );
 }
@@ -108,12 +108,12 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
       </CardHeader>
 
       <CardContent>
-        <div className="mt-0 text-sm text-foreground/80 print:mt-0 print:text-[10px] text-pretty text-justify ">
+        <div className="mt-2 text-sm text-foreground/80 print:mt-1 print:text-[10px] text-pretty text-justify ">
           {description}
         </div>
-        <div className="mt-2.5 ">
+        <div className="mt-4.5 ">
           <BadgeList
-            className="-mx-2 flex-wrap gap-1 sm:hidden "
+            className="-mx-1 flex-wrap gap-1 sm:hidden "
             badges={badges}
           />
         </div>
@@ -133,10 +133,10 @@ interface WorkExperienceProps {
 export function WorkExperience({ work }: WorkExperienceProps) {
   return (
     <Section>
-      <h2 className="text-xl font-bold" id="work-experience">
-        Work Experience
+      <h2 className="text-xl mt-1 font-bold" id="work-experience">
+        Berufserfahrung
       </h2>
-      <div className="space-y-1 print:space-y-1" role="feed" aria-labelledby="work-experience">
+      <div className="space-y-1 -mt-1 print:space-y-1" role="feed" aria-labelledby="work-experience">
         {work.map((item) => (
           <article key={`${item.company}-${item.start}`} role="article">
             <WorkExperienceItem work={item} />

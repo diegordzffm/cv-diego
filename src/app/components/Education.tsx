@@ -15,7 +15,7 @@ interface EducationPeriodProps {
 function EducationPeriod({ start, end }: EducationPeriodProps) {
   return (
     <div
-      className="text-xs text-gray-500 print:text-xs print:text-gray-500"
+      className="text-xs text-gray-500 font-semibold print:text-xs print:text-gray-500"
       aria-label={`Period: ${start} to ${end}`}
     >
       {start}-{end}
@@ -37,9 +37,9 @@ function EducationItem({ education }: EducationItemProps) {
     <>
       <Card>
         <CardHeader>
-          <div className="flex items-center justify-between gap-x-2 text-base">
+          <div className="flex items-center  mt-1 gap-x-2 text-base">
             <h3
-              className="font-semibold leading-none text-blue-500 print:text-blue-500"
+              className=" font-semibold mt-1 leading-none text-blue-500  print:text-blue-500"
               id={`education-${school.toLowerCase().replace(/\s+/g, "-")}`}
             >
               {school}
@@ -48,7 +48,7 @@ function EducationItem({ education }: EducationItemProps) {
           </div>
         </CardHeader>
         <CardContent
-          className="mt-2 text-foreground/80 print:text-[12px]"
+          className="mt-1 text-foreground/80  print:text-[12px]"
           aria-labelledby={`education-${school.toLowerCase().replace(/\s+/g, "-")}`}
         >
           {degree}
@@ -69,11 +69,11 @@ interface EducationListProps {
 export function Education({ education }: EducationListProps) {
   return (
     <Section>
-      <h2 className="text-xl font-bold " id="education-section">
+      <h2 className=" -mt-1 text-xl -mt-2 font-bold " id="education-section">
         Bildungsweg
       </h2>
       <div
-        className="space-y-1"
+        className="space-y-2 -mt-1 "
         role="feed"
         aria-labelledby="education-section"
       >

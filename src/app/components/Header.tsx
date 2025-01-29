@@ -2,6 +2,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RESUME_DATA } from "@/data/resume-data";
+import { GitHubIcon } from "./GitHubIcon";
 
 interface LocationLinkProps {
   location: typeof RESUME_DATA.location;
@@ -10,7 +11,9 @@ interface LocationLinkProps {
 
 function LocationLink({ location, locationLink }: LocationLinkProps) {
   return (
-    <p className="max-w-md items-center text-pretty font serif text-xs text-foreground">
+    
+      <p className="max-w-md items-center text-pretty font serif text-xs text-foreground pt-1">
+
       <a
         className="inline-flex gap-x-1 align-baseline leading-none hover:underline"
         href={locationLink}
@@ -54,7 +57,7 @@ interface ContactButtonsProps {
 function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
   return (
     <div
-      className="flex gap-x-1 pt-1 font serif text-sm text-foreground/80 print:hidden"
+      className="flex gap-x-1 pt-2 font serif text-sm text-foreground/80 print:hidden"
       role="list"
       aria-label="Contact links"
     >
@@ -143,15 +146,21 @@ export function Header() {
   return (
     <header className="flex items-center justify-between">
       <div className="flex-1 space-y-1.5">
-        <h1 className="text-2xl font-bold" id="resume-name">
-          {RESUME_DATA.name}
+        <h1 className="text-2xl font-bold" id="resume-name"> 
+          {RESUME_DATA.name} 
+
+          
+      
+
+
         </h1>
         <p
-          className="max-w-md text-pretty space-y-1 font serif text-sm text-foreground/80 print:text-[12px] text-justify"
+          className="max-w-lg text-pretty space-y-1 font serif  text-sm text-foreground/80 print:text-[12px]  text-justify"
           aria-labelledby="resume-name"
         >
           {RESUME_DATA.about}
         </p>
+
 
         <LocationLink
           location={RESUME_DATA.location}
