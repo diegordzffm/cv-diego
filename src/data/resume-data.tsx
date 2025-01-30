@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   location: "Akazienstr. 55, 65933 Frankfurt am Main, Deutschland",
   locationLink: "https://www.google.com/maps/place/FrankfurtamMain",
   about: 
-      "Physiker mit praktischer Erfahrung in Data Science, Data Analytics, Softwareentwicklung und regulatorischem Reporting. Ich bin interessiert an der Automatisierung von Softwarelösungen und von Datenworkflows. Zusätzlich habe ich eine große Begeisterung für Process Mining, KI, ML, Kryptowährungen und möchte mein Know-how in diesen Bereichen erweitern.",
+      "Physiker mit praktischer Erfahrung in Data Science, Data Analytics, Softwareentwicklung und regulatorischem Reporting. Ich bin interessiert an der Automatisierung von Softwarelösungen und von Datenworkflows. Zusätzlich habe ich eine große Begeisterung für Process Mining, KI, Kryptowährungen und Cloud-Datenbanken.",
   summary: (
     <>
       Bereits während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in der Analyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten um regulatorische Anforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datensätze sowie darauf, durch Datenanalyse wertvolle Business-Insights zu gewinnen.
@@ -43,13 +43,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Universität Stuttgart",
-      degree: "Master of Science in Physics",
+      degree: "Master of Science in Physik",
       start: "2017",
       end: "2020",
     },
     {
-      school: "University of Coahuila, Mexico",
-      degree: "Bachelor of Science in Physics",
+      school: "University of Coahuila, Mexiko",
+      degree: "Bachelor of Science in Physik",
       start: "2011",
       end: "2016",
     },
@@ -166,6 +166,7 @@ export const RESUME_DATA = {
     "REST APIs",
     "SQL",
     "Data Science",
+    "Datenbanken",
     "Git",
     "Software Automation",
     "Agile Methodology",

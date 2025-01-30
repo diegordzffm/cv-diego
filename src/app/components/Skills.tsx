@@ -44,7 +44,7 @@ export function Skills({ skills, className }: SkillsProps) {
     <Section className={className}>
       
       <h2 className="-mt-2 pb-1 text-xl font-bold" id="skills-section ">
-        Kentnisse und Sprache
+        Kenntnisse und Sprache
       </h2>
       <SkillsList skills={skills} aria-labelledby="skills-section" />
     </Section>
