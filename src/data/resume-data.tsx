@@ -75,6 +75,9 @@ export const RESUME_DATA = {
             <li>
               Erfahrung in dem Management von relationalen Datenbanken und Data Lakes, insbesondere mit MS-SQL Server und PostgreSQL, zur Verarbeitung und Analyse von Datensätzen. Auch Praxiswissen in der Modellierung und Anpassung von Kundendaten für die Software sowie die Entwicklung von Datenqualitätsprüfungen und Monitoring-Prozessen.
             </li>
+            <li>
+              Entwicklung und Durchführung von Testfällen und Testszenarien, vor allem UI-Tests und End-to-End-Prozesse sowie Automatisierung von Tests für das IT-Produkt. Analyse der Testergebnisse zur schnellen Identifikation und Kommunikation von Fehlern.
+            </li>
           </ul>
         </>
       ),
@@ -166,7 +169,7 @@ export const RESUME_DATA = {
     "Git",
     "Software Automation",
     "Agile Methodology",
-    "• Deutsch: Gute Kenntnisse (B2-Niveau)",  "• Englisch: verhandlungssicher",  "• Spanisch: Muttersprache",
+    "• Deutsch: Gute Kenntnisse (mind. B2-Niveau)",  "• Englisch: verhandlungssicher",  "• Spanisch: Muttersprache",
   ],
   
   
