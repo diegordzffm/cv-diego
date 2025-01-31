@@ -17,7 +17,7 @@ export const RESUME_DATA = {
       "Physiker mit praktischer Erfahrung in Data Science, Data Analytics, Softwareentwicklung und regulatorischem Reporting. Ich bin interessiert an der Automatisierung von Softwarelösungen und von Datenworkflows. Zusätzlich habe ich eine große Begeisterung für Process Mining, KI, Kryptowährungen und Cloud-Datenbanken.",
   summary: (
     <>
-      Bereits während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in der Analyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten um regulatorische Anforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datensätze sowie darauf, durch Datenanalyse wertvolle Business-Insights zu gewinnen.
+      Bereits während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in der Analyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten um regulatorische Anforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datenprozesse sowie auf der Ermittlung wertvoller Business-Insights durch Datenanalyse.
       <hr className="border-t-2 border-gray-500 my-3 print:border-gray mb-1 -mt--0.5" />
     </>
   ),
@@ -73,10 +73,10 @@ export const RESUME_DATA = {
               Entwicklung eines Projekts zur Automatisierung komplexer ETL-Prozesse, dabei habe ich Python, Airflow DAGs, S3-Buckets und REST-APIs eingesetzt. Dadurch wurde die Software für das Meldewesen effizienter und besser skalierbar.
             </li>
             <li>
-              Erfahrung in dem Management von relationalen Datenbanken und Data Lakes, insbesondere mit MS-SQL Server und PostgreSQL, zur Verarbeitung und Analyse von Datensätzen. Auch Praxiswissen in der Modellierung und Anpassung von Kundendaten für die Software sowie die Entwicklung von Datenqualitätsprüfungen und Monitoring-Prozessen.
+              Erfahrung im Management relationaler Datenbanken und Data Lakes, vor allem mit MS SQL Server und PostgreSQL, zur effizienten Verarbeitung und Analyse von Datensätzen. Praktische Kenntnisse in der Modellierung und Anpassung von Kundendaten für Softwarelösungen. Entwicklung von Datenqualitätsprüfungen und Monitoring-Prozessen.
             </li>
             <li>
-              Entwicklung und Durchführung von Testfällen und Testszenarien, vor allem UI-Tests und End-to-End-Prozesse sowie Automatisierung von Tests für das IT-Produkt. Analyse der Testergebnisse zur schnellen Identifikation und Kommunikation von Fehlern.
+              Entwicklung und Durchführung von Testfällen und Testszenarien, hauptsächlich für UI-Tests und End-to-End-Prozesse. Automatisierung von Tests für das IT-Produkt zur Effizienzsteigerung. Analyse der Testergebnisse zur schnellen Erkennung und Kommunikation von Fehlern.
             </li>
           </ul>
         </>
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
               Ich habe mit Python-Libraries wie Pandas, NumPy und Scikit-learn komplexe Datenanalysen durchgeführt und Daten aufbereitet. Als Datenvisualisierungstools verwendete ich Matplotlib, Matlab.
             </li>
             <li>
-              Modellierung und Implementierung mathematischer sowie statistischer Algorithmen zur Verarbeitung komplexer experimenteller Daten und exakten Interpretation wissenschaftlicher Ergebnisse. Dabei habe ich Data-Science-Techniken wie Bayesian Optimization, Monte-Carlo-Methoden zur Fehlerabschätzung und neuronale Netzwerke zur Verbesserung der Vorhersagegenauigkeit eingesetzt.
+              Modellierung und Implementierung mathematischer und statistischer Algorithmen zur Verarbeitung komplexer experimenteller Daten und exakten Interpretation wissenschaftlicher Ergebnisse. Dabei habe ich Data-Science-Techniken wie Bayesian Optimization, Monte-Carlo-Methoden zur Fehlerabschätzung und neuronale Netzwerke zur Verbesserung der Vorhersagegenauigkeit eingesetzt.
             </li>
             <li className="text-left">            
               Meine Forschung in den Bereichen Data Science und Physik wurde in wissenschaftlichen Publikationen veröffentlicht:{" "} 
