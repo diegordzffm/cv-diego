@@ -105,8 +105,8 @@ export const RESUME_DATA = {
                 https://doi.org/10.1103/PhysRevLett.124.136402
               </a> 
               {" "}und{" "}  
-              <a href="https://doi.org/10.1103/PhysRevLett.124.136402" target="_blank" rel="noopener noreferrer">
-                https://doi.org/10.1103/PhysRevLett.124.136402
+              <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.174104" target="_blank" rel="noopener noreferrer">
+              https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.174104
               </a>.
               <hr className="border-t-2 border-gray-500 my-4 mt-3 print:border-gray" />
               </li>
