@@ -17,7 +17,7 @@ export const RESUME_DATA = {
       "Physiker mit praktischer Erfahrung in Data Science, Data Analytics, Softwareentwicklung und regulatorischem Reporting. Ich bin interessiert an der Automatisierung von Softwarelösungen und von Datenworkflows. Zusätzlich habe ich eine große Begeisterung für Process Mining, KI, Kryptowährungen und Cloud-Datenbanken.",
   summary: (
     <>
-      Bereits während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in der Analyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten um regulatorische Anforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datenprozesse sowie auf der Ermittlung wertvoller Business-Insights durch Datenanalyse.
+      Schon während meines Physikstudiums habe ich mich intensiv mit Data Science und Datenanalyse beschäftigt. Ich habe Expertise in der Analyse komplexer Daten, in der Erstellung datenbasierter Modelle und in der Verarbeitung von Kundendaten um regulatorische Anforderungen im Bankwesen zu erfüllen. Mein Fokus liegt auf der Automatisierung komplexer Datenprozesse sowie auf der Ermittlung wertvoller Business-Insights durch Datenanalyse.
       <hr className="border-t-2 border-gray-500 my-3 print:border-gray mb-1 -mt--0.5" />
     </>
   ),
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
     {
       company: "Universität Stuttgart - Max Planck Institut",
       link: "",
-      badges: ["Scientific Assistant - Doktorand"],
+      badges: ["Scientific Assistant"],
       title: "",
       start: "03.2020",
       end: "09.2021",
